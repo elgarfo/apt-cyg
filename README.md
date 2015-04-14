@@ -67,9 +67,11 @@ packages.
 Quick start
 -----------
 
+you need package "wget" from section "Web" installed.
+
 apt-cyg is a simple script. To install:
 
-    lynx -source rawgit.com/transcode-open/apt-cyg/master/apt-cyg > apt-cyg
+    wget -O apt-cyg https://cdn.rawgit.com/elgarfo/apt-cyg/master/apt-cyg
     install apt-cyg /bin
 
 Example use of apt-cyg:
